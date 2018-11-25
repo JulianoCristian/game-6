@@ -1457,14 +1457,14 @@ bool CClientTimesDisplay::GetPlayerTimes(KeyValues *kv, bool fullUpdate)
 
 #if ENABLE_ONLINE_LEADERBOARDS
     m_bOnlineNeedUpdate =
-        (fullUpdate && (gpGlobals->curtime - m_flLastOnlineTimeUpdate >= MIN_ONLINE_UPDATE_INTERVAL ||
+        (fullUpdate && ((gpGlobals->curtime - m_flLastOnlineTimeUpdate >= MIN_ONLINE_UPDATE_INTERVAL ||
                         m_bFirstOnlineTimesUpdate) ||
-         (gpGlobals->curtime - m_flLastOnlineTimeUpdate >= MAX_ONLINE_UPDATE_INTERVAL || m_bOnlineNeedUpdate));
+         (gpGlobals->curtime - m_flLastOnlineTimeUpdate >= MAX_ONLINE_UPDATE_INTERVAL || m_bOnlineNeedUpdate)));
 
     m_bFriendsNeedUpdate =
-        (fullUpdate && (gpGlobals->curtime - m_flLastFriendsTimeUpdate >= MIN_FRIENDS_UPDATE_INTERVAL ||
+        (fullUpdate && ((gpGlobals->curtime - m_flLastFriendsTimeUpdate >= MIN_FRIENDS_UPDATE_INTERVAL ||
                         m_bFirstFriendsTimesUpdate) ||
-         (gpGlobals->curtime - m_flLastFriendsTimeUpdate >= MAX_FRIENDS_UPDATE_INTERVAL || m_bFriendsNeedUpdate));
+         (gpGlobals->curtime - m_flLastFriendsTimeUpdate >= MAX_FRIENDS_UPDATE_INTERVAL || m_bFriendsNeedUpdate)));
 
     // Fill online times only if needed
 

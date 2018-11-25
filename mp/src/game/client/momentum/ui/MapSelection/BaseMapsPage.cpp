@@ -337,7 +337,6 @@ ServerResponded(nIndex, &server);
 //-----------------------------------------------------------------------------
 /*void CBaseMapsPage::ServerResponded(int iServer)
 {
-/*
 #ifndef NO_STEAM
 gameserveritem_t *pServerItem = SteamMatchmakingServers()->GetServerDetails(m_eMatchMakingType, iServer);
 if (!pServerItem)
