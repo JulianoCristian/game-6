@@ -24,8 +24,12 @@ ipch
 *.vcxproj.filters
 *.pdb
 *.lib
+
+# Visual Studio 2017
 *.VC.db
-*.VC.VC.opendb
+*.VC.opendb
+*.VC.db-shm
+*.VC.db-wal
 
 # OSX/Linux build products
 *.mak
@@ -35,6 +39,9 @@ ipch
 obj*/
 !devtools/*.mak
 !utils/smdlexp/smdlexp.mak
+*.a
+*.dylib
+*.plist
 
 # Specific Source build products
 client.so
@@ -66,6 +73,8 @@ config.cfg
 server_blacklist.txt
 gamestate.txt
 checkpoints.txt
+progress.dat
+savedlocs.txt
 *.ain
 stats.txt
 voice_ban.dt
@@ -82,12 +91,10 @@ game_shader_dx9.so
 game_shader_dx9.so.dbg
 game_shader_dx9_srv.so
 game_shader_dx9_srv.so.dbg
-gameui2.dll
-gameui2.so
-gameui2.so.dbg
-gameui2_srv.so
-gameui2_srv.so.dbg
+game_shader_dx9.dylib
+game_shader_dx9.dylib.dYSM/
 mp/game/bin/
+mp/game/momentum/materials/vgui/maps/*
 
 # Others
 *.cache
@@ -101,3 +108,7 @@ mp/game/bin/
 *.cfg
 .idea/
 CMakeLists.txt
+mp/game/momentum/cfg/pet.txt
+*.exe
+mp/game/momentum/version.txt
+mp/game/momentum/downloadlists/
