@@ -13,7 +13,7 @@ $Configuration
 {
     $Compiler
     {
-        $AdditionalIncludeDirectories   "$BASE;$SRCDIR\game\shared\momentum;$SRCDIR\thirdparty\gason\src"
+        $AdditionalIncludeDirectories   "$BASE;$SRCDIR\game\shared\momentum;$SRCDIR\thirdparty\gason"
         $PreprocessorDefinitions        "$BASE;SDK_DLL"
     }
 }
@@ -189,8 +189,8 @@ $Project "Server (Momentum)"
 
         $Folder "JSON Parser"
         {
-            $File "$SRCDIR\thirdparty\gason\src\gason.h"
-            $File "$SRCDIR\thirdparty\gason\src\gason.cpp"
+            $File "$SRCDIR\thirdparty\gason\gason.h"
+            $File "$SRCDIR\thirdparty\gason\gason.cpp"
             {
                 $Configuration
                 {
