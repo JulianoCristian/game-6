@@ -173,7 +173,6 @@ void CMomentumReplayGhostEntity::UpdateStep(int Skip)
 
 void CMomentumReplayGhostEntity::Think()
 {
-
     BaseClass::Think();
 
     if (!m_bIsActive)
