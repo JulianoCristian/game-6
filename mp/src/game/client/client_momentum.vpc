@@ -72,21 +72,21 @@ $Project "Client (Momentum)"
                 {
                     $Folder "Headers"
                     {
-	                    $File "momentum\ui\SettingsPanel\IMomentumSettingsPanel.h"
-	                    $File "momentum\ui\SettingsPanel\SettingsPage.h"
-	                    $File "momentum\ui\SettingsPanel\HudSettingsPage.h"
-	                    $File "momentum\ui\SettingsPanel\GameplaySettingsPage.h"
-	                    $File "momentum\ui\SettingsPanel\ComparisonsSettingsPage.h"
-	                    $File "momentum\ui\SettingsPanel\AppearanceSettingsPage.h"
+                        $File "momentum\ui\SettingsPanel\IMomentumSettingsPanel.h"
+                        $File "momentum\ui\SettingsPanel\SettingsPage.h"
+                        $File "momentum\ui\SettingsPanel\HudSettingsPage.h"
+                        $File "momentum\ui\SettingsPanel\GameplaySettingsPage.h"
+                        $File "momentum\ui\SettingsPanel\ComparisonsSettingsPage.h"
+                        $File "momentum\ui\SettingsPanel\AppearanceSettingsPage.h"
                         $File "momentum\ui\SettingsPanel\OnlineSettingsPage.h"
                     }
 
                     $File "momentum\ui\SettingsPanel\MomentumSettingsDialog.cpp"
                     $File "momentum\ui\SettingsPanel\SettingsPage.cpp"
                     $File "momentum\ui\SettingsPanel\HudSettingsPage.cpp"
-	                $File "momentum\ui\SettingsPanel\GameplaySettingsPage.cpp"
-	                $File "momentum\ui\SettingsPanel\ComparisonsSettingsPage.cpp"
-	                $File "momentum\ui\SettingsPanel\AppearanceSettingsPage.cpp"
+                    $File "momentum\ui\SettingsPanel\GameplaySettingsPage.cpp"
+                    $File "momentum\ui\SettingsPanel\ComparisonsSettingsPage.cpp"
+                    $File "momentum\ui\SettingsPanel\AppearanceSettingsPage.cpp"
                     $File "momentum\ui\SettingsPanel\OnlineSettingsPage.cpp"
                 }
                 
@@ -144,8 +144,8 @@ $Project "Client (Momentum)"
                     $File   "momentum\ui\leaderboards\LeaderboardsTimes.cpp"
                     $File   "momentum\ui\leaderboards\ClientTimesDisplay.h"
                     $File   "momentum\ui\leaderboards\ClientTimesDisplay.cpp"
-                    $File 	"momentum\ui\leaderboards\LeaderboardsContextMenu.h"
-                    $File 	"momentum\ui\leaderboards\LeaderboardsContextMenu.cpp"
+                    $File   "momentum\ui\leaderboards\LeaderboardsContextMenu.h"
+                    $File   "momentum\ui\leaderboards\LeaderboardsContextMenu.cpp"
                 }
                 
                 $Folder "Changelog"
@@ -179,7 +179,7 @@ $Project "Client (Momentum)"
                 }
             }
 
-			$Folder "API"
+            $Folder "API"
             {
                 $File "momentum\mom_api_requests.h"
                 $File "momentum\mom_api_requests.cpp"
@@ -208,7 +208,7 @@ $Project "Client (Momentum)"
                 $File "$SRCDIR\game\shared\momentum\weapon\weapon_mom_lmg.cpp"
                 $File "$SRCDIR\game\shared\momentum\weapon\weapon_mom_grenade.h"
                 $File "$SRCDIR\game\shared\momentum\weapon\weapon_mom_grenade.cpp"
-				$File "$SRCDIR\game\shared\momentum\weapon\weapon_mom_paintgun.h"
+                $File "$SRCDIR\game\shared\momentum\weapon\weapon_mom_paintgun.h"
                 $File "$SRCDIR\game\shared\momentum\weapon\weapon_mom_paintgun.cpp"
                 
                 //CS guns
@@ -246,14 +246,14 @@ $Project "Client (Momentum)"
                         }
                     }
                 }
-			}
+            }
             $Folder "Network"
             {
-            	$Folder "Online Ghost"
-            	{
-	            	$File   "momentum\c_mom_online_ghost.h"
-        			$File   "momentum\c_mom_online_ghost.cpp"
-            	}
+                $Folder "Online Ghost"
+                {
+                    $File   "momentum\c_mom_online_ghost.h"
+                    $File   "momentum\c_mom_online_ghost.cpp"
+                }
                 $File   "$SRCDIR\game\shared\momentum\mom_steam_helper.h"
                 $File   "$SRCDIR\game\shared\momentum\mom_steam_helper.cpp"
                 {
@@ -300,7 +300,7 @@ $Project "Client (Momentum)"
                 }
             }
 
-			$File   "$SRCDIR\game\shared\momentum\mom_grenade_projectile.cpp"
+            $File   "$SRCDIR\game\shared\momentum\mom_grenade_projectile.cpp"
             $File   "$SRCDIR\game\shared\momentum\mom_grenade_projectile.h"
             $File   "$SRCDIR\game\shared\momentum\mom_gamemovement.cpp"
             $File   "$SRCDIR\game\shared\momentum\mom_gamemovement.h"
@@ -314,7 +314,7 @@ $Project "Client (Momentum)"
             $File   "$SRCDIR\game\shared\momentum\mom_modulecomms.h"
             $File   "momentum\c_mom_player.cpp"
             $File   "momentum\c_mom_player.h"
-			$File   "momentum\c_mom_triggers.cpp"
+            $File   "momentum\c_mom_triggers.cpp"
             $File   "momentum\c_mom_triggers.h"
             $File   "momentum\c_te_shotgun_shot.cpp"
             $File   "momentum\fx_cs_muzzleflash.cpp"
@@ -350,7 +350,7 @@ $Project "Client (Momentum)"
         }
         
         $File   "$SRCDIR\game\shared\predicted_viewmodel.cpp"
-		$File   "$SRCDIR\game\shared\predicted_viewmodel.h"
+        $File   "$SRCDIR\game\shared\predicted_viewmodel.h"
     }
 
     $Folder "Link Libraries"
